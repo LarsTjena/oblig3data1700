@@ -1,11 +1,13 @@
+# DATA1700 Oblig 3
+=======
 OsloMet brukernavn: lahan0443
 
-Github brukernavn: LarsTjena
+GitHub brukernavn: LarsTjena
 
-Github repo: https://github.com/LarsTjena/DATA1700-Oblig1
+GitHub repo: https://github.com/LarsTjena/oblig3data1700/
 
 Fullt navn: Lars Bårreng Hansen
 
-Denne applikasjon skal fungere som et program for innkjøp av kinobilletter, og legge informasjonen fra kjøperen inn i et array.
+Denne applikasjon skal fungere som et program for innkjøp av kinobilletter, og legge informasjonen fra kjøperen inn i en database.
 
-Er spesielt usikker på framgangsmåten for input-valideringene i programmet, hvis det er noe du vil titte ekstra på :)
+Videogjennomgang: https://www.youtube.com/watch?v=wOYbxEfw1mI
