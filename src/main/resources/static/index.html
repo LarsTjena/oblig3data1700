@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.js"
+          integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <form onsubmit="return false;">
+        <h1>Kinobilletter</h1>
+
+        <div class="form-group">
+          <label for="film">Velg film:</label>
+          <select class="form-control" name="film" id="film">
+            <option value="velg">Velg film</option>
+            <option value="Ringenes Herre">Ringenes Herre</option>
+            <option value="Hobbiten">Hobbiten</option>
+            <option value="Gudfaren">Gudfaren</option>
+          </select>
+          <label for="film" id="filmError"></label>
+        </div>
+
+        <div class="form-group">
+          <label for="antall">Antall:</label>
+          <input type="number" class="form-control" id="antall">
+          <label for="antall" id="antallError"></label>
+        </div>
+
+        <div class="form-group">
+          <label for="fornavn">Fornavn:</label>
+          <input type="text" class="form-control" id="fornavn">
+          <label for="fornavn" id="fornavnError"></label>
+        </div>
+
+        <div class="form-group">
+          <label for="etternavn">Etternavn:</label>
+          <input type="text" class="form-control" id="etternavn">
+          <label for="etternavn" id="etternavnError"></label>
+        </div>
+
+        <div class="form-group">
+          <label for="telefon">Telefonnr:</label>
+          <input type="text" class="form-control" id="telefon">
+          <label for="telefon" id="telefonError"></label>
+        </div>
+
+        <div class="form-group">
+          <label for="epost">Epost:</label>
+          <input type="text" class="form-control" id="epost">
+          <label for="epost" id="epostError"></label>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary" id="kjop">Kjøp billett</button>
+        </div>
+
+        <h2>Alle billetter</h2>
+
+        <div id="billetter">
+          <table class="table">
+            <tr>
+              <th>Film</th>
+              <th>Antall</th>
+              <th>Fornavn</th>
+              <th>Etternavn</th>
+              <th>Telefon</th>
+              <th>Epost</th>
+            </tr>
+          </table>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" class="btn btn-danger" id="slett">Slett alle billettene</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
